@@ -54,6 +54,6 @@ def sum_array(array)
    array.inject(:+)
 end
 
-sum_array([11,4,7,8,9,100,134]) #273
+sum_array([5,6,7,8,9,20])
 
   
