@@ -50,5 +50,12 @@ end
 
 find_a(["apple", "string", "rock", "avis", "length", "andere" ])
 
+def sum_array(array)
+  sum = 0
+  array.each do |num|
+    sum+=num
+  end
+  sum
+end 
 
   
