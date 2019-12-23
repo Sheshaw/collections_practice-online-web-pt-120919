@@ -16,4 +16,6 @@ sort_array_desc([66, 4, 6])
 def sort_array_char_count
   array.sort do | left, right|
     left.length <=> right.length
+  end
+end
 
