@@ -51,7 +51,8 @@ end
 find_a(["apple", "string", "rock", "avis", "length", "andere" ])
 
 def sum_array(array)
-   array.inject do
+   array.inject(:+)
+end
 
 sum_array([11,4,7,8,9,100,134]) #273
 
