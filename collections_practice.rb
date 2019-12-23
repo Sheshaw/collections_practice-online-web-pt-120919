@@ -21,5 +21,29 @@ end
 
 sort_array_char_count(["chayan", "maria", "antionette"])
 
-def swap_elements
+def swap_elements(array)
+  array[1], array[2] = array[2], array[1]
+  array
+end
+
+swap_elements(["chayan", "maria", "antionette"]) 
+
+def reverse_array(array)
+  array.reverse
+end
+
+reverse_array(["chayan", "maria", "antionette"])
+
+def kesha_maker(array)
+  array.each do |item|
+    item[2] = "$"
+  end
+end
+
+kesha_maker(["chayan", "maria", "antionette"])
+
+def find_a(array)
+  array.find_all do |word|
+    word[0] == "a"
+  end
   
