@@ -19,3 +19,4 @@ def sort_array_char_count
   end
 end
 
+sort_array_char_count([66, 4, 6])
