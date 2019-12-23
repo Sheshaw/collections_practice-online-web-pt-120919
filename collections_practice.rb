@@ -48,13 +48,13 @@ def find_a(array)
   end
 end
 
-find_a(["apple", "orange", "pear", "avis", "arlo", "ascot" ])
-
-def sum_array(array)
-  sum = 0
-  array.each do |num|
-    sum+=num
+def find_a(array)
+  array.select do |string|
+    string.start_with?("a")
   end
-  sum
-end 
+end
+
+find_a(["apple", "string", "rock", "avis", "length", "andere" ])
+
+
   
